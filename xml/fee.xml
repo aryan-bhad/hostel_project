@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hostel_detail>
+
+		<title>Annual Fee</title>
+
+		<annual_fee>
+				<fee_type> Admission Fee </fee_type> 
+				<price> RS.500 </price>
+		</annual_fee>
+
+		<annual_fee>
+				<fee_type> Furniture Fee </fee_type> 
+				<price> RS.750 </price>
+		</annual_fee>
+
+		<annual_fee>
+				<fee_type> Medical  Counselling Fee </fee_type> 
+				<price> RS.1000 </price>
+		</annual_fee>
+
+		<annual_fee>
+				<fee_type> Garden fee </fee_type> 
+				<price> RS.150 </price>
+		</annual_fee>
+
+		<annual_fee>
+				<fee_type> Development/Welfare </fee_type> 
+				<price> RS.2400 </price>
+		</annual_fee>
+
+		<annual_fee>
+				<fee_type> Hostel Sport and Cultural Fee </fee_type> 
+				<price> RS.1200 </price>
+		</annual_fee>
+
+		<annual_fee>
+				<fee_type> Caution Money </fee_type> 
+				<price> RS.5000 </price>
+		</annual_fee>
+
+		<annual_fee>
+				<fee_type> Mess Security </fee_type> 
+				<price> RS.5000 </price>
+		</annual_fee>
+
+
+	</hostel_detail>

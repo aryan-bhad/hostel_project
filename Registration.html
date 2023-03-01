@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="css/Registration.css">
+    <title>Regestration</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">J S</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active px-3">
+                    <a class="nav-link" href="index.html" target="_blank">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="Facility.html" target="_blank">Facility <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="About.html" target="_blank">About <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="Rules.html" target="_blank">Rules <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="Registration.html" target="_blank">Registration <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
+
+    <h1 style="text-align: center; color: blue;">Hostel Registration Form</h1>
+    <div class="container my-5">
+        <form class="border p-3 bg-primary border-radius shadow">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputsname">Fist Name:</label>
+                    <input type="text" class="form-control sname" id="inputsname" placeholder="Enter first name">
+                    <div id="first"> </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputlname">Last Name:</label>
+                    <input type="text" class="form-control lname" id="inputlname" placeholder="enter last name">
+                    <div id="first2"> </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control email" id="inputEmail4" placeholder="Email">
+                    <div id="first3"> </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control pass" id="inputPassword4" placeholder="Password">
+                    <div id="first4"> </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control add" id="inputAddress" placeholder="1234 Main St">
+                <div id="first6"> </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control state">
+                        <option selected>Gujarat</option>
+                        <option>Maharastra</option>
+                        <option>Goa</option>
+                        <option>Panjab</option>
+                        <option>Rajasthan</option>
+                        <option>Bihar</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Hariyana</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="inputCity">City</label>
+                    <select id="inputCity" class="form-control">
+                        <option selected>Surat</option>
+                        <option>patana</option>
+                        <option>Gandhinagar</option>
+                        <option>Ahemadabad</option>
+                        <option>Mumbai</option>
+                        <option>Lucknow</option>
+                        <option>Pune</option>
+                        <option>Panaji</option>
+                        <option>Chandigarh</option>
+                        <option>Jaipur</option>
+                        <option>Patana</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-2">
+                    <label for="inputpincode">Pincode</label>
+                    <input type="text" class="form-control pin" id="inpupincode">
+                    <div id="first5"> </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputdate">Birth Date</label>
+                    <!-- <input type="email" class="form-control" id="inputEmail4" placeholder="Email"> -->
+                    <input type="date" id="inputdate" class="form-control date" placeholder="Enter your DoB:">
+                    <div id="first7"> </div>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputphone">Phone No</label>
+                    <!-- <input type="password" class="form-control" id="inputPassword4" placeholder="Password"> -->
+                    <input type="text" id="inputphone" class="form-control phone" placeholder="Enter your phone No:">
+                    <div id="first8"></div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputcoures">Corse</label>
+                    <select id="inputcourse" class="form-control">
+                        <option selected>BCA</option>
+                        <option>BBA</option>
+                        <option>B.Com</option>
+                        <option>BA</option>
+                        <option>B.Sc</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="inputgender">Gender</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input chec" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                    <div id="first9"></div>
+                </div>
+            </div>
+            <center>
+                <button type="submit" class="btn btn-success submit">submit</button>
+                <button type="reset" class="btn btn-info">reset</button>
+
+            </center>
+        </form>
+    </div>
+
+    <script>
+
+    </script>
+
+    <footer class="bg-primary text-white bg-dark bg-light">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>about as</h4>
+                    <div>
+                        <div>
+                            <p>The J S Hostel College Hostel Located
+                                within the college campus was set up
+                                in 2008 .it consists</p>
+                            <div class="social">
+                                <a href="#"><span class="fab fa-facebook-f"></span></a>
+                                <a href="#"><span class="fab fa-twitter"></span></a>
+                                <a href="#"><span class="fab fa-instagram"></span></a>
+                                <a href="#"><span class="fab fa-youtube"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                    <h4>Address</h4>
+                    <div class="content py-2">
+                        <div class="phone">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="text" style="padding: 10%;"><B>+011-</B>25874136</span>
+                        </div>
+
+                        <div class="place">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="text" style="padding: 10%;">Ashok Nagar<b>,</b>West Delhi</span>
+                        </div>
+
+                        <div class="email">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text" style="padding: 10%;">jshostel007@gmail.com</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="right box">
+                        <h2>contact us</h2>
+                        <form action="">
+                            <div class="email">
+                                <div class="text">Email *</div>
+                                <input type="email" required style="border-radius: 5px;">
+                            </div>
+                            <div class="msg">
+                                <div class="text">Message *</div>
+                                <textarea cols="25" rows="2" required style="border-radius: 5px;"></textarea>
+                            </div>
+                            <div class="btn">
+                                <button style="width: 175px;" class="btn-success" type="submit">Send</button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="container-fluid text-center bg-secondary py-2">
+            &copy;2023.All right are reseved
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $(".submit").click(function () {
+                let sname = $(".sname").val();
+                let lname = $(".lname").val();
+                let email = $(".email").val();
+                let pass = $(".pass").val();
+                let pin = $(".pin").val();
+                let add = $(".add").val();
+                let date = $(".date").val();
+                let phone = $(".phone").val();
+
+                if (sname == "") {
+                    $("#first").html("**please enter first name");
+                    $("#first").css("color", "red");
+                    return false
+                }
+                if (sname.length < 3) {
+                    $("#first").html("**first name must me more then 3 char");
+                    $("#first").css("color", "red");
+                    return false
+                }
+                // if(sname=!NaN){
+                //     $("#first").html("**please enter character only");
+                //     $("#first").css("color","red");
+                //     return false 
+                // }
+
+
+                if (lname == "") {
+                    $("#first2").html("**please enter last name");
+                    $("#first2").css("color", "red");
+                    return false
+                }
+                if (lname.length < 2) {
+                    $("#first2").html("**first name must me more then 2 char");
+                    $("#first2").css("color", "red");
+                    return false
+                }
+                if (email == "") {
+                    $("#first3").html("**please enter email");
+                    $("#first3").css("color", "red");
+                    return false
+                }
+                if (pass == "") {
+                    $("#first4").html("**please enter password");
+                    $("#first4").css("color", "red");
+                    return false
+                }
+                if (pass.length <= 8) {
+                    $("#first4").html("**please enter min 8 character password");
+                    $("#first4").css("color", "red");
+                    return false
+                }
+                if (add == "") {
+                    $("#first6").html("**please enter your address");
+                    $("#first6").css("color", "red");
+                    return false
+                }
+                if (pin == "") {
+                    $("#first5").html("**please enter pincode number");
+                    $("#first5").css("color", "red");
+                    return false
+                }
+                if (!(pin.length == 6)) {
+                    $("#first5").html("**please enter 6 digit pincode number");
+                    $("#first5").css("color", "red");
+                    return false
+                }
+                if (date == "") {
+                    $("#first7").html("**please enter your birth date");
+                    $("#first7").css("color", "red");
+                    return false
+                }
+                if (phone == "") {
+                    $("#first8").html("**please enter your phone number");
+                    $("#first8").css("color", "red");
+                    return false
+                }
+                if (!(phone.length == 10)) {
+                    $("#first8").html("**please enter validet phone number");
+                    $("#first8").css("color", "red");
+                    return false
+                }
+            });
+        });
+    </script>
+</body>
